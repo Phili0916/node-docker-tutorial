@@ -17,6 +17,6 @@ services:
       - SESSION_SECRET=${SESSION_SECRET}
     command: node index.jss
   mongo:
-    environement:
+    environment:
       - MONGO_INITDB_ROOT_USERNAME=${MONGO_INITDB_ROOT_USERNAME}
       - MONGO_INITDB_ROOT_PASSWORD=${MONGO_INITDB_ROOT_PASSWORD}
